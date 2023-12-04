@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chess1.css">
+    <title>Document</title>
+</head>
+<body>  
+   
+<div class="chessboard">
+    <!-- 1st -->
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div1"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div2">
+        <img draggable="true" ondragstart="drag(event)" id="drag1" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div3"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div4">
+        <img draggable="true" ondragstart="drag(event)" id="drag2" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div5"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div6">
+        <img draggable="true" ondragstart="drag(event)" id="drag3" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div7"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div8">
+        <img draggable="true" ondragstart="drag(event)" id="drag4" src="chineseblack.png" alt="">
+    </div>
+    <!-- 2nd -->
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div9">
+        <img draggable="true" ondragstart="drag(event)" id="drag5" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div10"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div11">
+        <img draggable="true" ondragstart="drag(event)" id="drag6" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div12"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div13">
+        <img draggable="true" ondragstart="drag(event)" id="drag7" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div14"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div15">
+        <img draggable="true" ondragstart="drag(event)" id="drag8" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div16"></div>
+    <!-- 3th -->
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div17"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div18"> 
+        <img draggable="true" ondragstart="drag(event)" id="drag9" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div19"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div20">
+        <img draggable="true" ondragstart="drag(event)" id="drag10" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div21"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div22">
+        <img draggable="true" ondragstart="drag(event)" id="drag11" src="chineseblack.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div23"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div24">
+        <img draggable="true" ondragstart="drag(event)" id="drag12" src="chineseblack.png" alt="">
+    </div>
+    <!-- 4st -->
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div24"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div25"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div26"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div27"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div28"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div29"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div30"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div31"></div>
+    <!-- 5th -->
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div32"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div34"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div35"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div36"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div37"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div38"></div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div39"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div40"></div>
+    <!-- 6th -->
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div41">
+        <img draggable="true" ondragstart="drag(event)" id="drag13" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div42"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div43">
+        <img draggable="true" ondragstart="drag(event)" id="drag14" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div44"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div45">
+        <img draggable="true" ondragstart="drag(event)" id="drag15" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div46"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div47">
+        <img draggable="true" ondragstart="drag(event)" id="drag16" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div48"></div>
+    <!-- 7th -->
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div49"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div50">
+        <img draggable="true" ondragstart="drag(event)" id="drag17" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div51"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div52">
+        <img draggable="true" ondragstart="drag(event)" id="drag18" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div53"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div54">
+        <img draggable="true" ondragstart="drag(event)" id="drag19" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div55"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div56">
+        <img draggable="true" ondragstart="drag(event)" id="drag20" src="chinesewhite.png" alt="">
+    </div>
+    <!-- 8th -->
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div57">
+        <img draggable="true" ondragstart="drag(event)" id="drag21" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div58"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div59">
+        <img draggable="true" ondragstart="drag(event)" id="drag22" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div60"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div61">
+        <img draggable="true" ondragstart="drag(event)" id="drag23" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div62"></div>
+    <div class="black" ondrop="drop(event)" ondragover="allowDrop(event)" id="div63">
+        <img draggable="true" ondragstart="drag(event)" id="drag24" src="chinesewhite.png" alt="">
+    </div>
+    <div class="white" ondrop="drop(event)" ondragover="allowDrop(event)" id="div64"></div>
+    
+</div>
+    
+
+ <!-- <div class="numbers"></div>
+        <div class="letters"></div> -->
+
+
+    <script src="chess1.js"></script>
+</body>
+</html>
